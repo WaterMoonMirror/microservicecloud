@@ -6,23 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloud-eureka-7002" />
+        <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-zuul-gateway-9527" />
+        <module name="microservicecloudconfigeurekaclient7001" />
+        <module name="microservicecloudconfigdeptclient8001" />
+        <module name="microservicecloud-provider-dept-hystrix-8001" />
+        <module name="microservicecloud-api" />
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloud-provider-dept-8002" />
         <module name="microservicecloud-provider-dept-8001" />
-        <module name="microservicecloud-consumer-dept-feign" />
-        <module name="microservicecloud-consumer-dept-80" />
+        <module name="microservicecloud-config-3344" />
+        <module name="microservicecloudconfigclient3355" />
         <module name="microservicecloud-consumer-hystrix-dashboard" />
-        <module name="microservicecloudzuulgateway9527" />
-        <module name="microservicecloud-provider-dept-hystrix-8001" />
-        <module name="microservicecloud-api" />
+        <module name="microservicecloud-consumer-dept-80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.8" />
       <module name="microservicecloud-api" target="1.8" />
+      <module name="microservicecloud-config-3344" target="1.8" />
       <module name="microservicecloud-consumer-dept-80" target="1.8" />
       <module name="microservicecloud-consumer-dept-feign" target="1.8" />
       <module name="microservicecloud-consumer-hystrix-dashboard" target="1.8" />
@@ -33,7 +38,10 @@
       <module name="microservicecloud-provider-dept-8002" target="1.8" />
       <module name="microservicecloud-provider-dept-8003" target="1.8" />
       <module name="microservicecloud-provider-dept-hystrix-8001" target="1.8" />
-      <module name="microservicecloudzuulgateway9527" target="1.8" />
+      <module name="microservicecloud-zuul-gateway-9527" target="1.8" />
+      <module name="microservicecloudconfigclient3355" target="1.8" />
+      <module name="microservicecloudconfigdeptclient8001" target="1.8" />
+      <module name="microservicecloudconfigeurekaclient7001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
